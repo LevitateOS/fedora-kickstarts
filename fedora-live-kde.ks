@@ -13,5 +13,9 @@
 # DVD payload
 part / --size=9000
 
+%packages
+anaconda-webui
+%end
+
 %post
 %end
