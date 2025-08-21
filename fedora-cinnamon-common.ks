@@ -14,9 +14,6 @@ fedora-release-cinnamon
 @^cinnamon-desktop-environment
 
 @libreoffice
-rhythmbox
-
-# extra backgrounds
-f36-backgrounds-extras-gnome
+exaile
 
 %end
