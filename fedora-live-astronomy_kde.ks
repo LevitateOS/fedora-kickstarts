@@ -44,10 +44,10 @@ skyviewer
 swarp
 wcstools
 
-# Observatory: KStars + INDI drivers
-indi-3rdparty-drivers
+# Observatory: KStars + INDI
 indistarter
 kstars
+libindi
 
 # misc. astronomy
 #celestia
