@@ -83,7 +83,6 @@ python3-astroML
 python3-astroquery
 python3-astroscrappy
 python3-APLpy
-python3-ATpy
 python3-ccdproc
 python3-fitsio
 python3-gatspy
