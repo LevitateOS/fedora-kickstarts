@@ -11,7 +11,7 @@
 %include fedora-lxde-common.ks
 
 # increate the disk size for compose
-part / --size 6144
+part / --size 7168
 
 %post
 # LXDE and LXDM configuration
