@@ -7,7 +7,7 @@
 %include fedora-mate-common.ks
 %include fedora-live-minimization.ks
 
-part / --size 8192
+part / --size 9216
 
 %post
 # set livesys session type
