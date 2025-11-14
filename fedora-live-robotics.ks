@@ -16,8 +16,6 @@ part / --size 10752
 
 # Add robotics development packages
 @robotics-suite
-player-devel
-stage-devel
 
 # Add version control packages
 git
