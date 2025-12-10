@@ -51,7 +51,7 @@ btrfs /     --subvol --name=root LABEL=fedora
 reboot
 
 ##### begin package list #############################################
-%packages --instLangs=en
+%packages --inst-langs=en
 
 # Include packages for the cloud-server-environment group
 @^cloud-server-environment

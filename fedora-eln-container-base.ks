@@ -3,7 +3,7 @@
 
 %include fedora-container-common.ks
 
-%packages --excludedocs --instLangs=en --nocore --excludeWeakdeps
+%packages --excludedocs --inst-langs=en --nocore --exclude-weakdeps
 -fedora-release-container
 fedora-release-eln
 fedora-repos-eln

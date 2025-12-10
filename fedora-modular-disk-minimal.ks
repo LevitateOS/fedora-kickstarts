@@ -23,7 +23,7 @@ firstboot --reconfig
 
 %include fedora-repo.ks
 
-%packages --excludedocs --excludeWeakdeps --nocore
+%packages --excludedocs --exclude-weakdeps --nocore
 bash
 fedora-modular-release
 filesystem
