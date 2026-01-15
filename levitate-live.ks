@@ -81,6 +81,27 @@ systemctl enable livesys-late.service
 # enable tmpfs for /tmp
 systemctl enable tmp.mount
 
+# Dev shared folder (auto-mount when running in QEMU with virtio-9p)
+mkdir -p /mnt/share
+cat > /etc/systemd/system/mnt-share.mount << EOF
+[Unit]
+Description=QEMU Shared Folder
+ConditionVirtualization=qemu
+
+[Mount]
+What=share
+Where=/mnt/share
+Type=9p
+Options=trans=virtio
+
+[Install]
+WantedBy=multi-user.target
+EOF
+systemctl enable mnt-share.mount
+
+# Alias for installer binary
+ln -s /mnt/share/target/release/levitate-installer /usr/local/bin/levitate-installer
+
 # make it so that we don't do writing to the overlay for things which
 # are just tmpdirs/caches
 cat >> /etc/fstab << EOF
