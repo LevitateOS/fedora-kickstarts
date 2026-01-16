@@ -70,6 +70,11 @@ cat > /etc/issue << EOF
 LevitateOS 1.0
 Kernel \r on \m (\l)
 
+Login: root (no password)
+
+Run: levitate-installer    - Interactive installer
+     Manual install guide: https://levitateos.org/manual
+
 EOF
 
 echo "LevitateOS release 1.0" > /etc/system-release
