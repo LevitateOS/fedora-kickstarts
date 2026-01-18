@@ -35,6 +35,14 @@ coreutils
 util-linux
 systemd
 
+# Manual installation tools
+nano
+parted
+kbd
+shadow-utils
+dosfstools
+e2fsprogs
+
 # Networking
 NetworkManager
 
