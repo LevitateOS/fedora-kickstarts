@@ -1,2 +1,8 @@
 /spin-kickstarts-0.19.1.tar.gz
 /spin-kickstarts-0.19.2.tar.gz
+
+# Build outputs
+build/
+anaconda/
+*.iso
+*.log
